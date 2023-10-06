@@ -1,0 +1,21 @@
+---
+import Layout from '../layouts/Layout.astro';
+import ListPostsBlog from '../components/ListPostsBlog.astro';
+
+---
+<Layout title="Possama.">
+    <div class='py-10 bg-gradient-to-b from-slate-900 to-black'>
+      <main>
+        <section class="titulos py-10 sm:py-14 bg-[#9F79B1]">
+          <div class="caixola box text-white">
+            <h1 class="text-center text-[#1C244B] text-6xl py-3">Organizando o caos</h1>
+            <p class="text-center text-[#324A6D] text-xl py-3">Conteúdo atualizado toda sexta</p>
+          </div>
+        </section>
+        
+        <ListPostsBlog />
+
+        
+      </main>
+    </div>
+</Layout>

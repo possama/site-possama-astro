@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind variants;
+
+@layer base {
+
+  h1 {
+    @apply text-6xl text-yellow-50;
+  }
+  h2 {
+    @apply text-5xl ;
+  }
+  h3 {
+    @apply text-lg;
+  }
+  a {
+    @apply text-blue-600 underline;
+  }
+  p {
+    @apply text-[#F3F5F8] text-xl leading-normal;
+  }
+
+  
+}
+
+@layer components {
+  .caixola {
+    @apply mx-auto max-w-screen-2xl px-5;
+  }
+}
