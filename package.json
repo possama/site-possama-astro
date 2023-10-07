@@ -3,8 +3,9 @@
   "type": "module",
   "version": "0.0.1",
   "scripts": {
-    "dev": "astro dev",
-    "start": "astro dev",
+    "dev": "astro dev",    
+    "start": "cross-env NODE_ENV=development nodemon --exec node src/index.js",
+    "production": "cross-env NODE_ENV=production node src/index.js",
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro"
